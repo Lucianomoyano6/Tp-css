@@ -1,9 +1,13 @@
 
  h1 {
     text-align: center;
-    padding: 0% 5% 5% 5%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
  }
+ h6 {
+  text-align: center;
+  margin-top: 5px;
+ }
+
  h2{
    padding: auto;
  }
@@ -11,16 +15,15 @@
     text-align: justify;
     size: 10px;
  }
- img{
-   text-align: center;
-   color: rgb(0, 255, 195);
- }
 
  .container px-4 py-5{
    text-align: left;
    size: 20px;
    font-family: Georgia, 'Times New Roman', Times, serif;
    color: black;
+ }
+ p{
+  font-size: 12px;
  }
  .div-1 {
 
@@ -38,10 +41,14 @@
   margin:0px;
   
  }
+.col {
+  margin-left: auto;
+  margin-right: auto;
+}
 
  .div-2 {
-                       padding:100px, 100px, 100px, 100px ;
-                      width: 305px;
+                     padding:100px, 100px, 100px, 100px ;
+                     width: 305px;
                      float: CENTER;
                      margin:0px;
  }
@@ -49,3 +56,52 @@
  .footter{
    float:right;
  }
+ h5 {
+  text-align: center;
+ }
+ mark {
+  background-color: aqua;
+ }
+ .carddiv {
+  width: 50px;
+  height: auto;
+ margin-left: auto;
+ }
+ .carddiv1{
+  width: 200px;
+  height: auto;
+justify-content: center;
+  background-color: white;
+
+ }
+ .row-cols-1{
+  width: auto;
+  height: auto;
+  display: flex;
+
+ }
+ .flex-container{
+  margin-top: 10px;
+  display: flex;
+  width: 50%;
+ }
+ .flex-item{
+ margin:  5px;
+ }
+ img{
+  width:90px;
+  height:  90px;
+  display: block;
+  justify-content: center;
+}
+
+ .img_comida{
+  border-radius: 50%;
+  border: 2px solid rgb(151, 131, 131);
+  width: 35%;
+  height:35%;
+  justify-content: center;
+ }
+.fw-semibold{
+  -ms-text-size-adjust: 12px;
+}
